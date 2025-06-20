@@ -3,109 +3,87 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Tooplate">
-  <title>Waso Project Page - Gallery with Videos</title>
+  <title>USA Gallery – Davron Makhmudov</title>
 
-  <!-- CSS FILES -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/bootstrap-icons.css" rel="stylesheet">
   <link href="css/magnific-popup.css" rel="stylesheet">
   <link href="css/tooplate-waso-strategy.css" rel="stylesheet">
 
   <style>
-    .custom-col-5 {
-      width: 100%;
-      padding: 15px;
+    .gallery-item {
+      padding: 10px;
       text-align: center;
     }
-    @media (min-width: 1200px) {
-      .custom-col-5 {
-        width: 20%;
-        float: left;
-      }
+
+    .gallery-item img,
+    .gallery-item video {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease-in-out;
     }
-    @media (min-width: 768px) and (max-width: 1199.98px) {
-      .custom-col-5 {
-        width: 33.333%;
-        float: left;
-      }
-    }
-    @media (max-width: 767.98px) {
-      .custom-col-5 {
-        width: 50%;
-        float: left;
-      }
-    }
-    .row::after {
-      content: "";
-      display: table;
-      clear: both;
+
+    .gallery-item img:hover {
+      transform: scale(1.03);
     }
   </style>
 </head>
 <body>
 
   <main>
-    <section class="projects section-padding" style="background-color:#fff;">
+    <section class="section-padding" style="background-color: #fff;">
       <div class="container">
         <div class="row">
 
-          <!-- Images -->
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_0084.JPG" class="image-popup"><img src="images/usa/IMG_0084.JPG" class="img-fluid projects-image" alt="IMG_0084"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_0406.JPG" class="image-popup"><img src="images/usa/IMG_0406.JPG" class="img-fluid projects-image" alt="IMG_0406"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_0553.JPG" class="image-popup"><img src="images/usa/IMG_0553.JPG" class="img-fluid projects-image" alt="IMG_0553"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_0768.JPG" class="image-popup"><img src="images/usa/IMG_0768.JPG" class="img-fluid projects-image" alt="IMG_0768"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_1023.JPG" class="image-popup"><img src="images/usa/IMG_1023.JPG" class="img-fluid projects-image" alt="IMG_1023"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_1059.JPG" class="image-popup"><img src="images/usa/IMG_1059.JPG" class="img-fluid projects-image" alt="IMG_1059"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_6137.JPG" class="image-popup"><img src="images/usa/IMG_6137.JPG" class="img-fluid projects-image" alt="IMG_6137"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_6381.JPG" class="image-popup"><img src="images/usa/IMG_6381.JPG" class="img-fluid projects-image" alt="IMG_6381"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_8706.JPG" class="image-popup"><img src="images/usa/IMG_8706.JPG" class="img-fluid projects-image" alt="IMG_8706"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_8715.JPG" class="image-popup"><img src="images/usa/IMG_8715.JPG" class="img-fluid projects-image" alt="IMG_8715"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_8810.JPG" class="image-popup"><img src="images/usa/IMG_8810.JPG" class="img-fluid projects-image" alt="IMG_8810"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_8819.JPG" class="image-popup"><img src="images/usa/IMG_8819.JPG" class="img-fluid projects-image" alt="IMG_8819"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_8825.JPG" class="image-popup"><img src="images/usa/IMG_8825.JPG" class="img-fluid projects-image" alt="IMG_8825"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_9185.JPG" class="image-popup"><img src="images/usa/IMG_9185.JPG" class="img-fluid projects-image" alt="IMG_9185"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_9237.JPG" class="image-popup"><img src="images/usa/IMG_9237.JPG" class="img-fluid projects-image" alt="IMG_9237"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_9260.JPG" class="image-popup"><img src="images/usa/IMG_9260.JPG" class="img-fluid projects-image" alt="IMG_9260"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_9263.JPG" class="image-popup"><img src="images/usa/IMG_9263.JPG" class="img-fluid projects-image" alt="IMG_9263"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_9279.JPG" class="image-popup"><img src="images/usa/IMG_9279.JPG" class="img-fluid projects-image" alt="IMG_9279"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_9281.JPG" class="image-popup"><img src="images/usa/IMG_9281.JPG" class="img-fluid projects-image" alt="IMG_9281"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_9308.JPG" class="image-popup"><img src="images/usa/IMG_9308.JPG" class="img-fluid projects-image" alt="IMG_9308"></a></div>
-          <div class="custom-col-5 mb-4"><a href="images/usa/IMG_9563.JPG" class="image-popup"><img src="images/usa/IMG_9563.JPG" class="img-fluid projects-image" alt="IMG_9563"></a></div>
+          <!-- IMAGES -->
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_0084.JPEG" class="image-popup"><img src="images/usa/IMG_0084.JPEG" alt="IMG_0084"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_0406.JPEG" class="image-popup"><img src="images/usa/IMG_0406.JPEG" alt="IMG_0406"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_0553.JPEG" class="image-popup"><img src="images/usa/IMG_0553.JPEG" alt="IMG_0553"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_0768.JPEG" class="image-popup"><img src="images/usa/IMG_0768.JPEG" alt="IMG_0768"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_1023.JPEG" class="image-popup"><img src="images/usa/IMG_1023.JPEG" alt="IMG_1023"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_1059.JPEG" class="image-popup"><img src="images/usa/IMG_1059.JPEG" alt="IMG_1059"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_6137.JPEG" class="image-popup"><img src="images/usa/IMG_6137.JPEG" alt="IMG_6137"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_6381.JPEG" class="image-popup"><img src="images/usa/IMG_6381.JPEG" alt="IMG_6381"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_8706.JPEG" class="image-popup"><img src="images/usa/IMG_8706.JPEG" alt="IMG_8706"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_8715.JPEG" class="image-popup"><img src="images/usa/IMG_8715.JPEG" alt="IMG_8715"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_8810.JPEG" class="image-popup"><img src="images/usa/IMG_8810.JPEG" alt="IMG_8810"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_8819.JPEG" class="image-popup"><img src="images/usa/IMG_8819.JPEG" alt="IMG_8819"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_8825.JPEG" class="image-popup"><img src="images/usa/IMG_8825.JPEG" alt="IMG_8825"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_9185.JPEG" class="image-popup"><img src="images/usa/IMG_9185.JPEG" alt="IMG_9185"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_9237.JPEG" class="image-popup"><img src="images/usa/IMG_9237.JPEG" alt="IMG_9237"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_9260.JPEG" class="image-popup"><img src="images/usa/IMG_9260.JPEG" alt="IMG_9260"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_9263.JPEG" class="image-popup"><img src="images/usa/IMG_9263.JPEG" alt="IMG_9263"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_9281.JPEG" class="image-popup"><img src="images/usa/IMG_9281.JPEG" alt="IMG_9281"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_9308.JPEG" class="image-popup"><img src="images/usa/IMG_9308.JPEG" alt="IMG_9308"></a></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><a href="images/usa/IMG_9563.JPEG" class="image-popup"><img src="images/usa/IMG_9563.JPEG" alt="IMG_9563"></a></div>
 
-          <!-- Videos -->
-          <div class="custom-col-5 mb-4"><video controls class="img-fluid projects-image"><source src="images/usa/IMG_6377.MP4" type="video/mp4"></video></div>
-          <div class="custom-col-5 mb-4"><video controls class="img-fluid projects-image"><source src="images/usa/IMG_8818.MP4" type="video/mp4"></video></div>
-          <div class="custom-col-5 mb-4"><video controls class="img-fluid projects-image"><source src="images/usa/IMG_8821.MP4" type="video/mp4"></video></div>
-          <div class="custom-col-5 mb-4"><video controls class="img-fluid projects-image"><source src="images/usa/IMG_8932.MP4" type="video/mp4"></video></div>
-          <div class="custom-col-5 mb-4"><video controls class="img-fluid projects-image"><source src="images/usa/IMG_9030.MP4" type="video/mp4"></video></div>
-          <div class="custom-col-5 mb-4"><video controls class="img-fluid projects-image"><source src="images/usa/IMG_9031.MP4" type="video/mp4"></video></div>
-          <div class="custom-col-5 mb-4"><video controls class="img-fluid projects-image"><source src="images/usa/IMG_9082.MP4" type="video/mp4"></video></div>
+          <!-- VIDEOS -->
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><video controls><source src="images/usa/IMG_6377.MP4" type="video/mp4"></video></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><video controls><source src="images/usa/IMG_8818.MP4" type="video/mp4"></video></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><video controls><source src="images/usa/IMG_8821.MP4" type="video/mp4"></video></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><video controls><source src="images/usa/IMG_8932.MP4" type="video/mp4"></video></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><video controls><source src="images/usa/IMG_9030.MP4" type="video/mp4"></video></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><video controls><source src="images/usa/IMG_9031.MP4" type="video/mp4"></video></div>
+          <div class="gallery-item col-6 col-md-4 col-xl-2 mb-4"><video controls><source src="images/usa/IMG_9082.MP4" type="video/mp4"></video></div>
 
         </div>
       </div>
     </section>
   </main>
 
+  <!-- JS -->
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.sticky.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/click-scroll.js"></script>
-  <script src="js/custom.js"></script>
   <script>
     $(document).ready(function () {
       $('.image-popup').magnificPopup({
         type: 'image',
-        gallery: {
-          enabled: true
-        }
+        gallery: { enabled: true }
       });
     });
   </script>
+
 </body>
 </html>
