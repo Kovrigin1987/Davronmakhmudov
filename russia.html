@@ -117,14 +117,77 @@
       <div class="container">
         <div class="row">
 
-          <!-- 12 IMAGES -->
-          <div class="custom-col-5 mb-4">
-            <a href="images/uzbekistan/20161223_122932.jpg" class="image-popup">
-              <img src="images/uzbekistan/20161223_122932.jpg" class="img-fluid projects-image" alt="">
-            </a>
-            <h5 class="mt-2">Photo 1</h5>
-          </div>
 
+
+
+          
+
+         -- СТИЛИ ДЛЯ LIGHTGALLERY -->
+<link rel="st
+ylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css" />
+
+<!-- ГАЛЕРЕЯ -->
+<div id="video-gallery" class="row">
+  <div class="custom-col-5 mb-4" data-lg-size="1280-720" data-video="{\"source\":[{\"src\":\"images/usa/IMG_8932.MP4\",\"type\":\"video/mp4\"}],\"attributes\":{\"preload\":\"metadata\",\"controls\":true}}">
+    <a href="#">
+      <img class="img-fluid projects-image" src="images/usa/IMG_8932.MP4" alt="Video 1" />
+    </a>
+    <h5 class="mt-2">Video 1</h5>
+  </div>
+  <div class="custom-col-5 mb-4" data-lg-size="1280-720" data-video="{\"source\":[{\"src\":\"images/usa/IMG_9030.MP4\",\"type\":\"video/mp4\"}],\"attributes\":{\"preload\":\"metadata\",\"controls\":true}}">
+    <a href="#">
+      <img class="img-fluid projects-image" src="images/usa/IMG_9030.MP4" alt="Video 2" />
+    </a>
+    <h5 class="mt-2">Video 2</h5>
+  </div>
+  <div class="custom-col-5 mb-4" data-lg-size="1280-720" data-video="{\"source\":[{\"src\":\"images/usa/IMG_9031.MP4\",\"type\":\"video/mp4\"}],\"attributes\":{\"preload\":\"metadata\",\"controls\":true}}">
+    <a href="#">
+      <img class="img-fluid projects-image" src="images/usa/IMG_9031.MP4" alt="Video 3" />
+    </a>
+    <h5 class="mt-2">Video 3</h5>
+  </div>
+  <div class="custom-col-5 mb-4" data-lg-size="1280-720" data-video="{\"source\":[{\"src\":\"images/usa/IMG_9082.MP4\",\"type\":\"video/mp4\"}],\"attributes\":{\"preload\":\"metadata\",\"controls\":true}}">
+    <a href="#">
+      <img class="img-fluid projects-image" src="images/usa/IMG_9082.MP4" alt="Video 4" />
+    </a>
+    <h5 class="mt-2">Video 4</h5>
+  </div>
+  <div class="custom-col-5 mb-4" data-lg-size="1280-720" data-video="{\"source\":[{\"src\":\"images/usa/IMG_6377.MP4\",\"type\":\"video/mp4\"}],\"attributes\":{\"preload\":\"metadata\",\"controls\":true}}">
+    <a href="#">
+      <img class="img-fluid projects-image" src="images/usa/IMG_6377.MP4" alt="Video 5" />
+    </a>
+    <h5 class="mt-2">Video 5</h5>
+  </div>
+  <div class="custom-col-5 mb-4" data-lg-size="1280-720" data-video="{\"source\":[{\"src\":\"images/usa/IMG_8819.MP4\",\"type\":\"video/mp4\"}],\"attributes\":{\"preload\":\"metadata\",\"controls\":true}}">
+    <a href="#">
+      <img class="img-fluid projects-image" src="images/usa/IMG_8819.MP4" alt="Video 6" />
+    </a>
+    <h5 class="mt-2">Video 6</h5>
+  </div>
+  <div class="custom-col-5 mb-4" data-lg-size="1280-720" data-video="{\"source\":[{\"src\":\"images/usa/IMG_8706.MP4\",\"type\":\"video/mp4\"}],\"attributes\":{\"preload\":\"metadata\",\"controls\":true}}">
+    <a href="#">
+      <img class="img-fluid projects-image" src="images/usa/IMG_8706.MP4" alt="Video 7" />
+    </a>
+    <h5 class="mt-2">Video 7</h5>
+  </div>
+</div>
+
+<!-- СКРИПТЫ ДЛЯ LIGHTGALLERY -->
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/video/lg-video.umd.min.js"></script>
+<script>
+  lightGallery(document.getElementById('video-gallery'), {
+    plugins: [lgVideo],
+    licenseKey: '0000-0000-000-0000',
+    speed: 500,
+    download: false
+  });
+</script>
+
+
+
+
+          
         
 
           <div class="custom-col-5 mb-4">
